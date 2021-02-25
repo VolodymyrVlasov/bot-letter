@@ -1,0 +1,128 @@
+* {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: rgb(235, 235, 235);
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 2em;
+  /* border: 1px solid black; */
+}
+
+.info {
+  color: #656565 !important;
+  font-size: 16px !important;
+  margin-left: 20px;
+  font-weight: 700;
+}
+
+.label {
+  color: #767676 !important;
+  font-weight: 300;
+}
+
+.letter {
+  width: 100% !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  background-color: gray !important;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.section {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 180px;
+  height: 100%;
+  margin: 0;
+  background-image: url("https://paperfox.com.ua/wp-content/uploads/2016/10/paperfox-logo-header-500x110-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.product_link_page {
+  color: #b7b7b7;
+  line-height: 100%;
+  text-decoration: none;
+  text-align: right;
+}
+
+.flex1 {
+  flex: 1 !important;
+}
+
+.text_align_left {
+  text-align: left !important;
+}
+
+.text_align_right {
+  text-align: right !important;
+}
+
+.text_align_center {
+    text-align: center !important;
+
+}
+
+.order_id {
+  color: black;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.delivery_method_logo {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px !important;
+  margin: 0 auto !important;
+  text-align: center;
+  background-color: white;
+}
+
+
+.table_title {
+    display: flex;
+    align-items: center;
+    background-color: #EEEEEE;
+    height: 25px;
+    
+}
+
+.product_name_title {
+    border-right: 1px solid white;
+    flex: 3;
+}
