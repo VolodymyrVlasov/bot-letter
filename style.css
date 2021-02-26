@@ -1,128 +1,165 @@
+/*  
+*   https://paperfox.com.ua/wp-content/uploads/2021/02/np_logo.png
+*   https://paperfox.com.ua/wp-content/uploads/2021/02/paperfox_logo.png
+*   https://paperfox.com.ua/wp-content/uploads/2021/02/uklon_logo.png
+*/
+
 * {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
-  background-color: rgb(235, 235, 235);
+    background-color: rgb(235, 235, 235);
+    margin-top: 25px;
+}
+
+td {
+    border-collapse: collapse;
+    /* border: 1px solid black; */
 }
 
 p {
-  margin: 0;
-  padding: 0;
-  line-height: 2em;
-  /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+    /* border: 1px solid black; */
 }
 
 .info {
-  color: #656565 !important;
-  font-size: 16px !important;
-  margin-left: 20px;
-  font-weight: 700;
+    color: #656565 !important;
+    font-size: 16px !important;
+    font-weight: 700;
+    line-height: 1.8em;
 }
 
 .label {
-  color: #767676 !important;
-  font-weight: 300;
+    color: #767676 !important;
+    font-weight: 300;
 }
 
-.letter {
-  width: 100% !important;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.label_small {
+    color: #767676 !important;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.label_file_list {
+    color: #767676 !important;
+    font-size: 12px;
+    line-height: 1.4em;
+    font-weight: 300;
 }
 
 .header {
-  background-color: gray !important;
-  justify-content: space-between;
-  align-items: center;
-  height: 60px;
+    background-color: gray !important;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
 }
 
 .section {
-  margin-top: 20px;
+    margin-top: 20px !important;
+    width: 100%;
 }
 
 .row {
-  display: flex;
-  flex-direction: row;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.col {
-  display: flex;
-  flex-direction: column;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
 }
 
 .logo {
-  width: 180px;
-  height: 100%;
-  margin: 0;
-  background-image: url("https://paperfox.com.ua/wp-content/uploads/2016/10/paperfox-logo-header-500x110-1.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+    width: 180px;
+    height: 100%;
+    margin: 0;
+    background-image: url("https://paperfox.com.ua/wp-content/uploads/2016/10/paperfox-logo-header-500x110-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .product_link_page {
-  color: #b7b7b7;
-  line-height: 100%;
-  text-decoration: none;
-  text-align: right;
+    color: #b7b7b7;
+    line-height: 100%;
+    text-decoration: none;
+    text-align: right;
 }
 
-.flex1 {
-  flex: 1 !important;
+.half {
+    width: 300px !important;
 }
 
 .text_align_left {
-  text-align: left !important;
+    text-align: left !important;
 }
 
 .text_align_right {
-  text-align: right !important;
+    text-align: right !important;
 }
 
 .text_align_center {
     text-align: center !important;
-
 }
 
 .order_id {
-  color: black;
-  text-align: left;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1em;
+    color: black;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1em;
 }
 
 .delivery_method_logo {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-    align-items: center;
+    width: 50px;
+    height: 50px;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  max-width: 600px !important;
-  margin: 0 auto !important;
-  text-align: center;
-  background-color: white;
+    margin-top: 20px;
+    width: 100% !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) !important;
+    max-width: 600px !important;
+    margin: 0 auto !important;
+    text-align: center;
+    background-color: white;
 }
-
 
 .table_title {
     display: flex;
     align-items: center;
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
     height: 25px;
-    
 }
 
 .product_name_title {
     border-right: 1px solid white;
-    flex: 3;
+    width: 330px;
+}
+
+.product_quantity_title {
+    border-right: 1px solid white;
+    width: 107px;
+}
+
+.product_price_title {
+    width: 107px;
+}
+
+.item_container {
+    padding-bottom: 5px !important;
+    border-bottom: 2px solid #eeeeee !important;
+}
+
+.product_description {
+    width: 330px !important;
+    padding: 0px 5px 5px 0px;
+}
+
+.product_quantity_value {
+    background-color: #f8f6f6;
+    width: 107px !important;
+}
+
+.product_price_value {
+    width: 107px !important;
 }
